@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/project';
+const API_URL = 'https://gigde-global-solutions-backend.onrender.com/api/project';
 
 const getAuthHeaders = () => {
   const token = JSON.parse(localStorage.getItem('user'))?.token;

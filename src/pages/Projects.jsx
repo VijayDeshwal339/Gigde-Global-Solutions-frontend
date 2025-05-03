@@ -71,7 +71,7 @@ const Projects = () => {
       </div>
 
       {isLoading && <div className="text-gray-500">Loading projects...</div>}
-      {error && <div className="text-red-600 font-medium">Error: {error}</div>}
+      
 
       {projects.length === 0 ? (
         <div className="text-center text-gray-500 py-12">
